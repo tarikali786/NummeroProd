@@ -20,7 +20,7 @@ export default {
       blue: {
         // Brand color
         500: "#29a9e0",
-        600: " #121127",
+        600: "#0A0118FA",
         100: "#F4F6FA",
       },
       bgBlue: {
