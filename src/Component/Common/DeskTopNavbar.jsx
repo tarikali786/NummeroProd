@@ -5,7 +5,7 @@ export const DeskTopNavbar = () => {
   const [hoverIndex, setHoverIndex] = React.useState(null);
 
   return (
-    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-4 bg-blue-600 lg:flex  lg:justify-between lg:items-center hidden  gap-2  ">
+    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-4 bg-bgblue-500 lg:flex  lg:justify-between lg:items-center hidden  gap-2  ">
       <Link to="/" className="h-10 md:w-52 w-44">
         <img
           src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png"
