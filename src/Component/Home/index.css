@@ -1,3 +1,12 @@
-.HeroContainer{
-    filter:blur(100%);
+.bussinessCard {
+  background-image: url("https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67593d7c3c5cd52007b14a5a.png"),
+    linear-gradient(180deg, #2b233896 0%, #0a01188a 100%);
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -32,7 +32,7 @@ export const MobileNavbar = () => {
 
   return (
     <div
-      className={` sticky  top-0 w-full   z-50  lg:hidden  px-4  py-5 shadow-md flex items-center justify-between gap-2  bg-blue-600 `}
+      className={` sticky  top-0 w-full   z-50  lg:hidden  px-6  py-5 shadow-md flex items-center justify-between gap-2  bg-bgblue-500 `}
     >
       <Link to="/" className=" w-48 h-12   ">
         <img

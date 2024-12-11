@@ -30,6 +30,7 @@ export default {
       },
       white: {
         500: "#FFFFFF",
+        400: "#545454",
       },
       black: {
         600: " #1F1F1F",
