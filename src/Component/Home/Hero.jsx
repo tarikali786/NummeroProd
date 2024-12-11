@@ -37,6 +37,19 @@ export const Hero = () => {
             Learn More
           </button>
         </div>
+
+        <div classname="w-full mt-4 md:px-10 lg:px-12 xl:px-44 px-4 items-center justify-center text-center text-white h-full ">
+          <p className="text-sm md:text-lg uppercase tracking-widest mb-4">
+            who we are
+          </p>
+          <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight md:w-1/2 w-full">
+            Your Digital Future, Our Expertise Nummero Delivers Excellence
+          </h1>
+          <h6 className="text-1xl md:text-1xl font-bold mb-6 leading-tight md:w-1/2 w-full">
+            We are a premier digital MarkTech agency dedicated to transforming
+            businesses and propelling them to new heights.
+          </h6>
+        </div>
       </div>
     </div>
   );
