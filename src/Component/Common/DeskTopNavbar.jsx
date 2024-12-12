@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 import { NavbarData } from "../Data/Data";
 export const DeskTopNavbar = () => {
   const [hoverIndex, setHoverIndex] = React.useState(null);
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setHoverIndex(null); // Reset hover index on scroll
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="sticky top-0 z-50  w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 bg-bgblue-500 lg:flex  lg:justify-between lg:items-center hidden  gap-2  ">

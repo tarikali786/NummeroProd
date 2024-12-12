@@ -1,7 +1,9 @@
-export const Strategy = () => {
+import React from "react";
+
+export const Conversation = () => {
   return (
-    <div className=" w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 flex flex-col lg:flex-row items-center  justify-between  gap-10">
-      <div className="lg:w-1/2  ">
+    <div className=" w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 flex flex-col lg:flex-row items-center md:items-center justify-between  gap-10">
+      <div className="lg:w-1/2 ">
         <h3 className="text-2xl md:text-3xl font-bold mb-2">
           Omni-Channel Strategy
         </h3>
@@ -61,7 +63,7 @@ export const Strategy = () => {
         </div>
       </div>
 
-      <div className="lg:w-1/2 w-full ">
+      <div className="lg:w-1/2 w-full">
         <img
           src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675993edda8c39661440bdae.gif"
           alt="Icon"

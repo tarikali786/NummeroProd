@@ -4,10 +4,7 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        // Modify the existing shadow-lg
         lg: "0 0 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-        // sm: "0 0 5px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-        // xl: "0 0 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
       },
     },
     screens: {
@@ -27,10 +24,12 @@ export default {
         500: "#070110",
         400: "#f6f5f4",
         300: "#06010e85",
+        200:"#8000804d"
       },
       white: {
         500: "#FFFFFF",
         400: "#545454",
+        300: "#beb8c9",
       },
       black: {
         600: " #1F1F1F",
