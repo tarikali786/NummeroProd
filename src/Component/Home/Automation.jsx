@@ -1,6 +1,9 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { SkeletonLoading } from "../Common/SkeletonLoading";
 export const Automation = () => {
+  const [loading, setIsLoading] = useState(true);
+
   return (
     <div className=" w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 flex flex-col  lg:flex-row items-center md:items-center justify-between  gap-10">
       <div className="lg:w-1/2 ">
@@ -30,13 +33,13 @@ export const Automation = () => {
           <div className="flex gap-2">
             <div className="w-20 h-12">
               <img
-                src="https://nummero.com/wp-content/themes/nummero/newhome/media/Icons/Automation/6a.png"
+                src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675a9df3b5c0944f1a5447cf.png"
                 alt="Icon"
               />
             </div>
 
             <p className="text-white-300 text-[16px]">
-              <b className="text-white-500 text-[17px]">Integration</b>{" "}
+              <b className="text-white-500 text-[17px]">Integration:</b>{" "}
               Integrate automation tools with existing systems and platforms.
             </p>
           </div>
@@ -60,9 +63,12 @@ export const Automation = () => {
       </div>
 
       <div className="lg:w-1/2 w-full">
+        {loading && <SkeletonLoading />}
+
         <img
-          src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675993edda8c39661440bdae.gif"
+          src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675a9f1b5f5b957ca8f07262.gif"
           alt="Icon"
+          onLoad={() => setIsLoading(false)}
         />
       </div>
     </div>

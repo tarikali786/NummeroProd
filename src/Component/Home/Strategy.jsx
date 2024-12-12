@@ -1,5 +1,9 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { SkeletonLoading } from "../Common/SkeletonLoading";
 export const Strategy = () => {
+
+const [loading, setIsLoading] = useState(true);
   return (
     <div className=" w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 flex flex-col lg:flex-row items-center  justify-between  gap-10">
       <motion.div
@@ -78,9 +82,12 @@ export const Strategy = () => {
         }}
         className="lg:w-1/2 w-full"
       >
+        {loading && <SkeletonLoading />}
+
         <img
           src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675993edda8c39661440bdae.gif"
           alt="Icon"
+          onLoad={() => setIsLoading(false)}
         />
       </motion.div>
     </div>
