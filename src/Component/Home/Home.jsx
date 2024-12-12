@@ -1,14 +1,17 @@
+import About from "./About";
+import { Bussiness } from "./Bussiness";
 import { Hero } from "./Hero";
-import { Middle } from "./Middle";
-import "./index.css";
+import { Omnichanal } from "./Omnichanal";
+import   {Strategy} from "./Strategy"
 const Home = () => {
   return (
-    <>
-      <div className=" relative  w-full overflow-hidden  HeroContainer text-white-500 h-[88vh]">
-        <Hero />
-        <Middle />
-      </div>
-    </>
+    <div className=" text-white-500  bg-bgblue-500 flex flex-col gap-y-10 ">
+      <Hero />
+      <Bussiness />
+      <Omnichanal />
+      <About />
+      <Strategy/>
+    </div>
   );
 };
 
