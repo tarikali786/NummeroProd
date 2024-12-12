@@ -3,6 +3,7 @@ import { Button } from "../Common";
 import { SkeletonLoading } from "../Common/SkeletonLoading";
 import { motion } from "framer-motion";
 
+
 const About = () => {
   const [loading, setIsLoading] = useState(true);
   return (
