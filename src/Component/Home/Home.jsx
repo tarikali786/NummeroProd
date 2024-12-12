@@ -7,6 +7,7 @@ import { Hero } from "./Hero";
 import { Omnichanal } from "./Omnichanal";
 import { Strategy } from "./Strategy";
 import { Assist } from "./Assist";
+
 const Home = () => {
   return (
     <div className=" text-white-500  bg-bgblue-300 flex flex-col gap-y-10 ">
