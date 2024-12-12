@@ -1,13 +1,24 @@
 import { useState } from "react";
 import { Button } from "../Common";
 import { SkeletonLoading } from "../Common/SkeletonLoading";
+import { motion } from "framer-motion";
 
 const About = () => {
   const [loading, setIsLoading] = useState(true);
   return (
     <>
       <div className="  w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 flex flex-col lg:flex-row items-center md:items-center justify-between  gap-10">
-        <div className="relative lg:w-1/2 w-full h-92 flex items-center justify-center cursor-pointer group">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: -300 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          className="relative lg:w-1/2 w-full h-92 flex items-center justify-center cursor-pointer group"
+        >
           {loading && <SkeletonLoading />}
           <img
             src="https://nummero.com/wp-content/themes/nummero/newhome/media/im-so-glad-i-found-you-shot-of-two-coworkers.jpg"
@@ -16,9 +27,18 @@ const About = () => {
             onLoad={() => setIsLoading(false)}
           />
           <div className="absolute inset-0 bg-bgblue-200 opacity-30 rounded-lg group-hover:opacity-0"></div>
-        </div>
-
-        <div className="lg:w-1/2 w-full  flex flex-col items-center md:items-start text-center md:text-left">
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: 300 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          className="lg:w-1/2 w-full  flex flex-col items-center md:items-start text-center md:text-left"
+        >
           <p className="text-[16px] uppercase tracking-widest mb-4 text-blue-500  font-semibold ">
             who we are
           </p>
@@ -31,7 +51,7 @@ const About = () => {
             businesses and propelling them to new heights.
           </h6>
           <Button title="Discover More" link="#" />
-        </div>
+        </motion.div>
       </div>
     </>
   );

@@ -1,6 +1,18 @@
+import { motion } from "framer-motion";
+
 export const Omnichanal = () => {
   return (
-    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6 text-center">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.5 }}
+      variants={{
+        hidden: { opacity: 0, y: -200 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6 text-center"
+    >
       <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl mb-3">
         MarTech Omni-Channel Strategy
       </h1>
@@ -14,6 +26,6 @@ export const Omnichanal = () => {
           alt=""
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
