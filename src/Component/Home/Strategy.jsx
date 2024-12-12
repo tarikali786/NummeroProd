@@ -31,31 +31,27 @@ export const Strategy = () => {
           <div className="flex gap-2">
             <div className="w-20 h-12">
               <img
-                src="https://nummero.com/wp-content/themes/nummero/newhome/media/Icons/Automation/6a.png"
+                src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675a91573772bdfe84837d9e.png"
                 alt="Icon"
               />
             </div>
 
             <p className="text-white-300 text-[16px]">
-              <b className="text-white-500 text-[17px]">
-                Unified Customer Experience:
-              </b>{" "}
-              Ensuring seamless consistency across all channels.
+              <b className="text-white-500 text-[17px]">Data Integration:</b>{" "}
+              Centralizing and leveraging customer data effectively.
             </p>
           </div>
           <div className="flex gap-2">
             <div className="w-20 h-12">
               <img
-                src="https://nummero.com/wp-content/themes/nummero/newhome/media/Icons/Automation/6a.png"
+                src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675a9239b5c094b59f544131.png"
                 alt="Icon"
               />
             </div>
 
             <p className="text-white-300 text-[16px]">
-              <b className="text-white-500 text-[17px]">
-                Unified Customer Experience:
-              </b>{" "}
-              Ensuring seamless consistency across all channels.
+              <b className="text-white-500 text-[17px]">Personalization:</b>{" "}
+              Tailoring messaging and offers based on customer insights.{" "}
             </p>
           </div>
         </div>
