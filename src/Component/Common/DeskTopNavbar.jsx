@@ -29,7 +29,7 @@ export const DeskTopNavbar = () => {
             className="relative"
             onMouseEnter={() => setHoverIndex(index)}
           >
-            <Link to={item.link || "#"} className="hover:text-blue-300">
+            <Link to={item.link || "#"} className="hover:text-blue-500">
               {item.title}
             </Link>
 

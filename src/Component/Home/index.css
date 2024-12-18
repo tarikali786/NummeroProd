@@ -10,3 +10,70 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.VlaueContainer {
+  background-image: url("https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675be1c16876bddea2dd93cc.png");
+  background-repeat: repeat;
+  background-size: fill;
+}
+
+.valueCard {
+  background-image: url("https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/675bbe38986c6a7642a78194.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.numberContainer {
+  background-image: linear-gradient(135deg, #076dc2, #eb9411);
+  background-size: cover;
+  background-position: center;
+}
+
+.callContainer {
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #b47cfd 0%, #ff7fc2 100%);
+}
+.communicationCard {
+  background-image: radial-gradient(at top left, #0f0520 0%, #18023a 100%);
+}
+
+.boottraffic {
+  background-image: url("https://nummero.com/wp-content/themes/nummero/newhome/wp-content/uploads/sites/7/2024/01/img_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center center center;
+}
+.ResponsiveCard {
+  background-image: linear-gradient(135deg, #b47cfd 0%, #18023a 100%);
+}
+.PioneeringCard {
+  background-image: url("https://nummero.com/wp-content/themes/nummero/newhome/wp-content/uploads/sites/7/2024/01/digital-engineering-experts-collaborating-in-order-to-develop-advanced-scene-.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center center center;
+}
+.PioneeringCard {
+  --background-overlay: "";
+  background-color: #0a0118;
+}
+
+.PioneeringSection {
+  background-image: linear-gradient(180deg, #2b2338 0%, #0a011866 100%);
+}
+
+.css-1808mag-MuiPaper-root-MuiAccordion-root {
+  background: transparent !important;
+  color: #e4e1ea !important;
+}
+
+.css-7iurs7-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0 !important;
+}
+
+.css-jineix-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 40px !important;
+}
+.faqCard {
+  background-color: #090319 !important;
+}
