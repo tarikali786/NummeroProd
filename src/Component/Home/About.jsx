@@ -21,7 +21,7 @@ const About = () => {
         >
           {loading && <SkeletonLoading />}
           <img
-            src="https://nummero.com/wp-content/themes/nummero/newhome/media/im-so-glad-i-found-you-shot-of-two-coworkers.jpg"
+            src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6759640bb5c09463d95311d7.jpeg"
             alt="Coworkers"
             className="object-cover rounded-lg filter grayscale group-hover:filter-none"
             onLoad={() => setIsLoading(false)}

@@ -14,7 +14,7 @@ export const HowItwork = () => {
         <div className="flex  flex-col gap-2 px-4 items-center text-center ">
           <div className="size-16 rounded-full bg-bgblue-100 p-4">
             <img
-              src="https://nummero.com/wp-content/themes/nummero/newhome/media/Message%20icon%20-%20Nummero%201.png"
+              src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67629b799b7d9af253f181fe.png"
               alt=""
               className="object-fill"
             />
