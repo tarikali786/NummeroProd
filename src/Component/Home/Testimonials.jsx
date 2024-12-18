@@ -31,8 +31,8 @@ export const Testimonials = () => {
         >
           {[1, 2, 3].map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="w-[90%] lg:w-[70%] min-h-40 border m-auto rounded-full border-white-400 flex flex-col justify-center items-center px-4 py-10 bg-[#2b2338]">
-                <div className="size-32 ">
+              <div className="w-[90%] lg:w-[70%] min-h-40 border m-auto rounded-full border-pink-500 flex flex-col justify-center items-center px-4 py-10 bg-[#2b2338]">
+                <div className="size-32 border-2 border-pink-500  rounded-full">
                   <img
                     src="https://nummero.com/wp-content/themes/nummero/newhome/media/im-so-glad-i-found-you-shot-of-two-coworkers.jpg"
                     alt=""

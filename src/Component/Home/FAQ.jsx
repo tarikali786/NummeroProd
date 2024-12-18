@@ -36,7 +36,7 @@ export const FAQ = () => {
 
       <div
         onClick={() => setShowMore(!showMore)}
-        className="ml-5 text-white-500 bg-blue-500 w-[120px] text-center rounded-lg py-3  cursor-pointer mt-5"
+        className="ml-2 text-white-500 bg-blue-500 w-[120px] text-center rounded-lg py-3  cursor-pointer mt-5"
       >
         {showMore ? "Show Less" : "Show More"}
       </div>

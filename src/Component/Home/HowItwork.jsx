@@ -1,4 +1,5 @@
-import React from "react";
+import { motion } from "framer-motion";
+
 import { Button } from "../Common/Button";
 
 export const HowItwork = () => {
@@ -11,7 +12,17 @@ export const HowItwork = () => {
         Unlock Astonishing Results with Just 3 Simple Steps!
       </h2>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6  md:gap-y-16 lg:gap-y-10 mt-16">
-        <div className="flex  flex-col gap-2 px-4 items-center text-center ">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="flex  flex-col gap-2 px-4 items-center text-center "
+        >
           <div className="size-16 rounded-full bg-bgblue-100 p-4">
             <img
               src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67629b799b7d9af253f181fe.png"
@@ -24,9 +35,19 @@ export const HowItwork = () => {
             Book a free consultation call at click of a button
           </p>
           <Button title="Learn More" />
-        </div>
+        </motion.div>
 
-        <div className="flex px-6 flex-col gap-2  items-center text-center lg:border-white-400 lg:border-top-0  lg:border-l lg:border-r">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: -100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="flex px-6 flex-col gap-2  items-center text-center lg:border-white-400 lg:border-top-0  lg:border-l lg:border-r"
+        >
           <div className="size-16 rounded-full bg-bgblue-100 p-4">
             <img
               src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676286de7e62111c6ba9fdd2.png"
@@ -39,9 +60,19 @@ export const HowItwork = () => {
             Book a demo to discover the product
           </p>
           <Button title="Learn More" />
-        </div>
+        </motion.div>
 
-        <div className="flex  flex-col gap-2 px-4 items-center text-center ">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="flex  flex-col gap-2 px-4 items-center text-center "
+        >
           <div className="size-16 rounded-full bg-bgblue-100 p-4">
             <img
               src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67628818fb63bc2ab16458c6.png"
@@ -54,9 +85,19 @@ export const HowItwork = () => {
             Sign up for 14 days free trail to use the product
           </p>
           <Button title="Learn More" />
-        </div>
+        </motion.div>
 
-        <div className="flex  flex-col gap-2  items-center text-center  lg:border-white-400 lg:border-top-0  lg:border-l px-4 ">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: -100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="flex  flex-col gap-2  items-center text-center  lg:border-white-400 lg:border-top-0  lg:border-l px-4 "
+        >
           <div className="size-16 rounded-full bg-bgblue-100 p-4">
             <img
               src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6762888a7e62117d7ea9fecc.png"
@@ -69,7 +110,7 @@ export const HowItwork = () => {
             Reach out to our 24/7 customer support for product implementation
           </p>
           <Button title="Learn More" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

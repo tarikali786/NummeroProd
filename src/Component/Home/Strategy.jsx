@@ -30,7 +30,7 @@ export const Strategy = () => {
           <div className="flex gap-2">
             <div className="w-20 h-12">
               <img
-                src="https://nummero.com/wp-content/themes/nummero/newhome/media/Icons/Automation/6a.png"
+                src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67629df0fb63bc2a56646adb.png"
                 alt="Icon"
               />
             </div>

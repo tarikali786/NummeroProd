@@ -1,10 +1,19 @@
-import { div } from "framer-motion/client";
+import { motion } from "framer-motion";
+
 import { Button } from "../Common";
 import "./index.css";
 
 export const Card = ({ title, description, iconUrl, url }) => {
   return (
-    <div
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.5 }}
+      variants={{
+        hidden: { opacity: 0, y: 140 },
+        visible: { opacity: 1, y: 0 },
+      }}
       className="border border-white-400 bg-gray-500 outline outline-offset-8 outline-white-400
      hover:outline-blue-300 outline-1  hover:outline-2  text-white-500 rounded-xl p-6 flex flex-col items-start VlaueContainer  shadow-md"
     >
@@ -16,6 +25,6 @@ export const Card = ({ title, description, iconUrl, url }) => {
         {description}
       </p>
       <Button title="Learn More" link={url} />
-    </div>
+    </motion.div>
   );
 };
