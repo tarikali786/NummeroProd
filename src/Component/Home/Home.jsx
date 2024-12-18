@@ -7,7 +7,7 @@ import { Hero } from "./Hero";
 import { Omnichanal } from "./Omnichanal";
 import { Strategy } from "./Strategy";
 import { Assist } from "./Assist";
-
+import { Card } from "./Card";
 const Home = () => {
   return (
     <div className=" text-white-500  bg-bgblue-300 flex flex-col gap-y-10 w-full overflow-hidden">
@@ -20,6 +20,7 @@ const Home = () => {
       <Conversation />
       <Funnel />
       <Automation />
+      <Card/>
     </div>
   );
 };
