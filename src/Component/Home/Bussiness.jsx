@@ -8,7 +8,7 @@ export const Bussiness = () => {
           Join over 200+ businesses to create unique digital experiences for
           your customers.
         </h1>
-        <div className="mt-16 flex justify-between flex-wrap gap-12 md:items-left items-center ">
+        <div className="mt-16 flex md:justify-between  justify-center  flex-wrap gap-12 md:items-left items-center ">
           {/* Add logo images */}
           <div className="h-20vh w-[160px] md:w-[200px]">
             <img

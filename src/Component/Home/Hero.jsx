@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="relative w-full h-[50vh] md:h-[88.5vh] overflow-hidden HeroContainer">
+    <div className="relative w-full min-h-[50vh] md:h-[88.5vh] overflow-hidden HeroContainer py-8">
       {/* Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
