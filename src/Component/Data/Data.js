@@ -103,3 +103,42 @@ export const Nummeroservices = [
     url: "#",
   },
 ];
+
+export const FAQDATA = [
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+  {
+    question: "Why Choose Nummero as the Best SEO Company in Bangalore?",
+    answer:
+      "Nummero, the best SEO company in Bangalore, offers unmatched SEO services that boost your online presence and help you rank higher on search engine results pages (SERPs). Our team uses a data-driven approach to analyze market trends, user behavior, and search algorithms. This enables us to create SEO strategies tailored to meet the specific goals of your business. As the best SEO company in Bangalore, Nummero offers services like keyword research, on-page and off-page optimization, and technical SEO. We ensure your website is search engine friendly, while also providing a smooth user experience. Our SEO tactics are designed to enhance both visibility and credibility, leading to an increase in organic traffic. By choosing Nummero, you are partnering with a trusted SEO company in Bangalore that delivers results, helping your business grow sustainably in the digital space.",
+  },
+];

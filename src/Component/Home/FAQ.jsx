@@ -4,14 +4,15 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./index.css";
 import { useState } from "react";
+import { FAQDATA } from "../Data/Data";
 
 export const FAQ = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
     <div className="w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 pt-10">
-      {(showMore ? [1, 2, 3, 4] : [1]).map((item, index) => (
-        <Accordion className="" key={index} defaultExpanded>
+      {(showMore ? FAQDATA : [FAQDATA[0]]).map((item, index) => (
+        <Accordion className="faqCard" key={index} defaultExpanded >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`panel${item}-content`}
@@ -22,26 +23,13 @@ export const FAQ = () => {
               marginBottom: "0",
             }}
           >
-            Why Choose Nummero as the Best SEO Company in Bangalore?
+            {item?.question}
           </AccordionSummary>
           <AccordionDetails
             className="text-white-300"
             style={{ marginTop: "0" }}
           >
-            Nummero, the best SEO company in Bangalore, offers unmatched SEO
-            services that boost your online presence and help you rank higher on
-            search engine results pages (SERPs). Our team uses a data-driven
-            approach to analyze market trends, user behavior, and search
-            algorithms. This enables us to create SEO strategies tailored to
-            meet the specific goals of your business. As the best SEO company in
-            Bangalore, Nummero offers services like keyword research, on-page
-            and off-page optimization, and technical SEO. We ensure your website
-            is search engine friendly, while also providing a smooth user
-            experience. Our SEO tactics are designed to enhance both visibility
-            and credibility, leading to an increase in organic traffic. By
-            choosing Nummero, you are partnering with a trusted SEO company in
-            Bangalore that delivers results, helping your business grow
-            sustainably in the digital space.
+            {item?.answer}
           </AccordionDetails>
         </Accordion>
       ))}

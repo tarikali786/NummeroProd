@@ -63,9 +63,8 @@
 }
 
 .css-1808mag-MuiPaper-root-MuiAccordion-root {
-
-background: transparent !important;
-color: #e4e1ea !important;
+  background: transparent !important;
+  color: #e4e1ea !important;
 }
 
 .css-7iurs7-MuiAccordionSummary-content.Mui-expanded {
@@ -74,4 +73,7 @@ color: #e4e1ea !important;
 
 .css-jineix-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
   min-height: 40px !important;
+}
+.faqCard {
+  background-color: #090319 !important;
 }
