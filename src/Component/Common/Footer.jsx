@@ -12,9 +12,9 @@ export const Footer = () => {
     <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6 bg-bgblue-100  ">
       <div className="border-2 rounded-[50px] bg-blue-500 min-h-20 flex lg:flex-row flex-col gap-4 gap-y-6 text-white-500 justify-between  overflow-hidden px-12 lg:px-20 py-10">
         <div className="w-full lg:w-[40%]">
-          <div className="w-[260px] h-[60px]">
+          <div className="w-[180px] md:w-[260px] h-[60px]">
             <img
-              src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6762a8df63c0fe2097d6f6e7.png"
+              src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6763e1819b7d9af425f321a3.png"
               alt=""
             />
           </div>
@@ -28,19 +28,19 @@ export const Footer = () => {
             <Link to="https://www.facebook.com/Nummeroindia" target="_blank">
               <FacebookOutlinedIcon
                 style={{ fontSize: "30px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
             <Link to="https://www.linkedin.com/in/nummero" target="_blank">
               <LinkedInIcon
                 style={{ fontSize: "30px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
             <Link to="https://www.instagram.com/_nummero/" target="_blank">
               <InstagramIcon
                 style={{ fontSize: "30px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
             <Link
@@ -49,7 +49,7 @@ export const Footer = () => {
             >
               <YouTubeIcon
                 style={{ fontSize: "30px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
             <Link
@@ -58,13 +58,13 @@ export const Footer = () => {
             >
               <WhatsAppIcon
                 style={{ fontSize: "30px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
             <Link to="https://x.com/_nummero" target="_blank">
               <XIcon
                 style={{ fontSize: "26px" }}
-                className="hover:text-blue-500"
+                className="hover:text-yellow-500"
               />
             </Link>
           </div>

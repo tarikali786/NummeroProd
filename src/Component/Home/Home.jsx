@@ -16,8 +16,12 @@ import { Communication } from "./Communication";
 import { Pioneering } from "./Pioneering";
 import { Testimonials } from "./Testimonials";
 import { FAQ } from "./FAQ";
+import { useEffect } from "react";
 
 const Home = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className=" text-white-500  bg-bgblue-300 flex flex-col gap-y-10 w-full overflow-hidden">
       <Hero />

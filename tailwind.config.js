@@ -5,6 +5,9 @@ export default {
     extend: {
       boxShadow: {
         lg: "0 0 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        spBlue: "2px 2px 6px #29a9e0",
+        spYellow: "2px 2px 6px #fcb347",
+
       },
     },
     screens: {

@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import "./index.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -8,11 +7,11 @@ import "swiper/css/pagination";
 
 export const Testimonials = () => {
   return (
-    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-6 py-10 pt-10 text-center">
+    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-6 py-10 pt-10 text-center text-white-500">
       <h3 className="uppercase text-[16px] text-blue-500 text-center font-bold">
         Testimonial
       </h3>
-      <h2 className="text-3xl mt-3 font-semibold">Client Feedback & Reviews</h2>
+      <h2 className="text-3xl mt-3 font-semibold text-white-500">Client Feedback & Reviews</h2>
       <div className=" mt-10">
         <Swiper
           effect={"coverflow"}

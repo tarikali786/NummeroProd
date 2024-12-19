@@ -36,14 +36,14 @@ export const DeskTopNavbar = () => {
             {/* Dropdown Menu */}
             {item?.item && hoverIndex === index && (
               <div
-                className="absolute top-9 left-0 max-w-[20rem] min-w-min px-4 py-4 text-nowrap bg-white-500 text-black shadow-lg rounded-md  z-50 flex flex-col gap-1"
+                className="absolute top-9 left-0 max-w-[20rem] min-w-min px-4 py-4 text-nowrap bg-[#2b2338] text-black shadow-lg rounded-md  z-50 flex flex-col gap-2"
                 onMouseLeave={() => setHoverIndex(null)}
               >
                 {item?.item.map((child) => (
                   <Link
                     to={child.link || "#"}
                     key={child.id}
-                    className="text-sm  hover:text-blue-500 text-blue-600 rounded-md cursor-pointer"
+                    className="text-[16px]  hover:text-blue-500 text-white-500 rounded-md cursor-pointer  font-semibold"
                   >
                     {child.title}
                   </Link>
