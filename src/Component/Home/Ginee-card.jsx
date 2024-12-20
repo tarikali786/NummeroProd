@@ -9,7 +9,7 @@ export const GineeCard = ({ title, description, iconUrl, url }) => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
       transition={{ duration: 0.5 }}
-      variants={{
+      variants={{ 
         hidden: { opacity: 0, y: 140 },
         visible: { opacity: 1, y: 0 },
       }}

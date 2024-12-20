@@ -32,12 +32,12 @@ export const MobileNavbar = () => {
 
   return (
     <div
-      className={` sticky  top-0 w-full   z-50  lg:hidden  px-6  py-5 shadow-md flex items-center justify-between gap-2  bg-bgblue-500 `}
+      className={`sticky top-0 w-full z-50 lg:hidden px-6 py-5 shadow-md flex items-center justify-between gap-2 bg-bgblue-500`}
     >
-      <Link to="/" className=" w-48 h-12   ">
+      <Link to="/" className="w-48 h-12">
         <img
           src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png"
-          alt=""
+          alt="Logo"
         />
       </Link>
       <div className="lg:hidden block" onClick={toggleDrawer(true)}>
@@ -54,7 +54,7 @@ export const MobileNavbar = () => {
           style={{ width: 280, height: "100vh" }}
           className="relative bg-blue-600"
         >
-          <div className="lg:w-44 lg:h-10 w-28 h-8  m-4">
+          <div className="lg:w-44 lg:h-10 w-28 h-8 m-4">
             <img
               src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png"
               alt="Logo"
@@ -63,7 +63,16 @@ export const MobileNavbar = () => {
           {NavbarData.map((item, index) => (
             <div key={index} className="text-white-500">
               <ListItemButton onClick={() => handleExpand(index)}>
-                <ListItemText primary={item.title} />
+                {item.link ? (
+                  <Link
+                    to={item.link}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <ListItemText primary={item.title} />
+                  </Link>
+                ) : (
+                  <ListItemText primary={item.title} />
+                )}
                 {item.item ? (
                   expanded === index ? (
                     <ExpandLess />
@@ -75,11 +84,16 @@ export const MobileNavbar = () => {
 
               {item.item && (
                 <Collapse in={expanded === index} timeout="auto" unmountOnExit>
-                  <List component="div" disablePadding>
+                  <List component="div">
                     {item.item.map((child, childIndex) => (
-                      <ListItem key={childIndex} sx={{ pl: 4 }}>
-                        <ListItemText primary={child.title && child.title} />
-                      </ListItem>
+                      <ListItemButton
+                        key={childIndex}
+                        component={Link}
+                        to={child.link}
+                        sx={{ pl: 4 }}
+                      >
+                        <ListItemText primary={child.title} />
+                      </ListItemButton>
                     ))}
                   </List>
                 </Collapse>
