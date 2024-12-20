@@ -9,9 +9,17 @@ export const NavbarData = [
     title: "Services",
     link: "/service",
     item: [
-      { id: "a", title: "Web Development", link: "/web-development" },
+      {
+        id: "a",
+        title: "Web Development",
+        link: "/service/best-webdevelopemnt-agency-services-in-bangalore",
+      },
       { id: "b", title: "App Development", link: "/app-development" },
-      { id: "c", title: "Branding", link: "/service/best-branding-agency-services-in-bangalore" },
+      {
+        id: "c",
+        title: "Branding",
+        link: "/service/best-branding-agency-services-in-bangalore",
+      },
       { id: "d", title: "Influncer Marketing", link: "/Influncer Marketing" },
       { id: "e", title: "SEO", link: "/SEO" },
       {
