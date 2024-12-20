@@ -43,6 +43,7 @@ export const DeskTopNavbar = () => {
                   <Link
                     to={child.link || "#"}
                     key={child.id}
+                    target={child?.target}
                     className="text-[16px]  hover:text-blue-500 text-white-500 rounded-md cursor-pointer  font-semibold"
                   >
                     {child.title}

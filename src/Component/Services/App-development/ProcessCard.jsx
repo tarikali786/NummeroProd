@@ -12,7 +12,7 @@ export const ProcessCard = ({ title, description, iconUrl }) => {
         hidden: { opacity: 0, y: 140 },
         visible: { opacity: 1, y: 0 },
       }}
-      className="border border-yellow-500 outline outline-offset-8 outline-white-400 bg-bgblue-100 w-[70%]
+      className="border border-yellow-500 outline outline-offset-8 outline-white-400 bg-bgblue-100  w-[70%]
      hover:outline-blue-500 outline-1 hover:outline-2 text-white-500 rounded-xl p-6 flex flex-col items-start  shadow-spYellow"
     >
       <div className="size-12 mb-6">

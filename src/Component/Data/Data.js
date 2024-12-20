@@ -1,64 +1,80 @@
-export const NavbarData = [
-  {
-    id: 1,
-    title: "Home",
-    link: "/",
-  },
-  {
-    id: 2,
-    title: "Services",
-    link: "/service",
-    item: [
-      {
-        id: "a",
-        title: "Web Development",
-        link: "/service/best-webdevelopemnt-agency-services-in-bangalore",
-      },
-      { id: "b", title: "App Development", link: "/app-development" },
-      {
-        id: "c",
-        title: "Branding",
-        link: "/service/best-branding-agency-services-in-bangalore",
-      },
-      { id: "d", title: "Influncer Marketing", link: "/Influncer Marketing" },
-      { id: "e", title: "SEO", link: "/SEO" },
-      {
-        id: "f",
-        title: "Social Media Marketing",
-        link: "/Social Media Marketing",
-      },
-      { id: "g", title: "Logo Design", link: "/Logo Design" },
-      {
-        id: "h",
-        title: "Digital Marketing Strategy Development",
-        link: "/Digital Marketing Strategy Development",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Product Suite",
-    item: [
-      { id: "aa", title: "Nummero", link: "/" },
-      { id: "bb", title: "Ginee", link: "https://ginee.ai/" },
-    ],
-  },
-  {
-    id: 4,
-    title: "About",
-    link: "/about",
-  },
-  {
-    id: 5,
-    title: "Contact Us",
-    link: "/contact-us",
-  },
-  {
-    id: 6,
-    title: "Login / Register",
-    link: "/login",
-  },
-];
+  export const NavbarData = [
+    {
+      id: 1,
+      title: "Home",
+      link: "/",
+    },
+    {
+      id: 2,
+      title: "Services",
+      // link: "/service",
+      item: [
+        {
+          id: "a",
+          title: "Web Development",
+          link: "/service/best-web-developemnt-agency-services-in-bangalore",
+        },
+        {
+          id: "b",
+          title: "App Development",
+          link: "/service/best-app-developemnt-agency-services-in-bangalore",
+        },
+        {
+          id: "c",
+          title: "Branding",
+          link: "/service/best-branding-agency-services-in-bangalore",
+        },
+        {
+          id: "d",
+          title: "Influncer Marketing",
+          link: "/service/best-influencer-marketing-agency-services-in-bangalore",
+        },
+        {
+          id: "e",
+          title: "SEO",
+          link: "/service/best-seo-agency-services-in-bangalore",
+        },
+        {
+          id: "f",
+          title: "Social Media Marketing",
+          link: "/service/best-social-media-maketing-agency-services-in-bangalore",
+        },
+        {
+          id: "g",
+          title: "Logo Design",
+          link: "/service/best-logo-design-agency-services-in-bangalore",
+        },
+        {
+          id: "h",
+          title: "Digital Marketing Strategy Development",
+          link: "/service/best-digital-marketing-strategy-developemnt-agency-services-in-bangalore",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Product Suite",
+      item: [
+        { id: "aa", title: "Nummero", link: "/" },
+        { id: "bb", title: "Ginee", link: "https://ginee.ai/", target: "_blank" },
+      ],
+    },
+    {
+      id: 4,
+      title: "About",
+      link: "/about",
+    },
+    {
+      id: 5,
+      title: "Contact Us",
+      link: "/contact-us",
+    },
+    {
+      id: 6,
+      title: "Login / Register",
+      link: "/login",
+    },
+  ];
 
 export const Nummeroservices = [
   {
