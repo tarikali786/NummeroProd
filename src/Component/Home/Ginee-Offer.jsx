@@ -1,5 +1,5 @@
 import { GineeServices } from "../Data/Data";
-import { GineeCard } from "./GineeCard";
+import { GineeCard } from "./Ginee-card";
 import "./index.css";
 export const GineeOffer = () => {
   return (
