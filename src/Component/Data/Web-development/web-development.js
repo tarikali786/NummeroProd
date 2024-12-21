@@ -43,7 +43,7 @@ export const WebDevlopmentData = [
       ],
     },
     process: {
-      heading: "Our Bangalore Branding Agency Process",
+      heading: "Our Website Development Process",
       processCard: [
         {
           id: "process1",

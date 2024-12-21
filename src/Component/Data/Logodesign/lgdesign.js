@@ -61,13 +61,20 @@ export const LogodesignData = [
         },
         {
           id: "process3",
-          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676541357e62110b82ad8e5c.png",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676451b9e81acb3e97a53e82.png",
+          title: "Concept Development",
+          content:
+            "With the knowledge gathered from our investigation, we move on to the inventive heart of the technique. Our skilled designers develop several logo variations based on the essence of your brand.Crafting impactful brand messages simply.",
+        },
+        {
+          id: "process4",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676452749d7e03ace764dd57.png",
           title: "Feedback and Revision",
           content:
             "This stage focuses on refining and improving the designs based on your feedback. Our goal is to ensure that the finished logo design exceeds your expectations. Our commitment to open communication and iterative improvement distinguishes us as a top logo design business in Bangalore.",
         },
         {
-          id: "process4",
+          id: "process5",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643d589ea10046469539a9.png",
           title: "Finalization",
           content:

@@ -10,7 +10,7 @@ export const BangloreSocialData = [
         "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765706f11ca4ea5e3f7dd69.png",
     },
     services: {
-      heading: "All-in-one SEO Services",
+      heading: "Social Media Marketing Services",
       serviceCard: [
         {
           id: "pro1",

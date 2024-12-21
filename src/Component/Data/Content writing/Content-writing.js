@@ -2,7 +2,7 @@ export const ContentWrintingData = [
   {
     id: "banglore",
     hero: {
-      title: "Content Writing",
+      title: "Invest in Professional Expertise Now!",
       heading: "Best Content Writing Agency in Bangalore",
       subheading:
         "Top-notch Content Writing Company in Bangalore to take your business to the next level",

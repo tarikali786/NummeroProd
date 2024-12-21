@@ -12,7 +12,7 @@ export const Seodata = [
 
     services: {
       heading: "All-in-one SEO Services",
-      servicesCard: [
+      serviceCard: [
         {
           id: "seo1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676449977e62113a21ac317c.png",
