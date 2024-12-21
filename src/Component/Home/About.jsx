@@ -42,14 +42,14 @@ const About = () => {
           <p className="text-[16px] uppercase tracking-widest mb-4 text-blue-500  font-semibold ">
             who we are
           </p>
-          <h1 className="text-2xl md:text-3xl  font-bold mb-4 ">
+          <h2 className="text-2xl md:text-3xl  font-bold mb-4 ">
             Your Digital Future, Our Expertise <br /> Nummero Delivers
             Excellence
-          </h1>
-          <h6 className="md:text-[16px]  text-white-300 mb-6 ">
+          </h2>
+          <p className="md:text-[16px]  text-white-300 mb-6 ">
             We are a premier digital MarkTech agency dedicated to transforming
             businesses and propelling them to new heights.
-          </h6>
+          </p>
           <Button title="Discover More" link="#" />
         </motion.div>
       </div>

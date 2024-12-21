@@ -16,9 +16,9 @@ export const Strategy = () => {
         }}
         className="lg:w-1/2"
       >
-        <h3 className="text-2xl md:text-3xl font-bold mb-2">
+        <h2 className="text-2xl md:text-3xl font-bold mb-2">
           Omni-Channel Strategy
-        </h3>
+        </h2>
         <p className="text-[16px] mb-6  text-white-300">
           An omni-channel strategy in digital marketing integrates multiple
           channels (websites, mobile apps, social media, email, stores) to

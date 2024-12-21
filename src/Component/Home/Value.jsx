@@ -25,10 +25,10 @@ export const Value = () => {
           <h2 className="text-xl uppercase font-bold text-blue-500">
             OUR VALUE
           </h2>
-          <h3 className=" text-3xl font-bold mt-4">
+          <h2 className=" text-3xl font-bold mt-4">
             Innovative, Transparent, Collaborative, Excellent, Adaptive,
             Impactful
-          </h3>
+          </h2>
           <p className="text-white-300 mt-4 mb-10">
             Our mission is to drive growth with innovative, transparent AI
             solutions. We excel through collaboration, adaptability, and
@@ -50,10 +50,10 @@ export const Value = () => {
           }}
           className="bg-blue-300 lg:h-1/2 min-h-[30vh] rounded-lg p-8 flex flex-col justify-between gap-2"
         >
-          <h3 className="text-lg  font-bold  ">OUR VISION</h3>
-          <h4 className="text-xl font-medium ">
+          <h2 className="text-lg  font-bold  ">OUR VISION</h2>
+          <h2 className="text-xl font-medium ">
             Elevate Your Digital Presence with Nummero Expertise.
-          </h4>
+          </h2>
           <p className="">
             Empowering Small & Medium Businesses through Innovative Martech
             Product & Solutions for better ROI.
@@ -70,10 +70,10 @@ export const Value = () => {
           }}
           className="bg-pink-500 lg:h-1/2 min-h-[30vh] rounded-lg p-8 flex flex-col justify-between gap-2"
         >
-          <h3 className="text-lg  font-bold  ">OUR MISSION</h3>
-          <h4 className="text-xl font-medium ">
+          <h2 className="text-lg  font-bold  ">OUR MISSION</h2>
+          <h2 className="text-xl font-medium ">
             Unleash Your Potential in the Digital Realm with Nummero.
-          </h4>
+          </h2>
           <p className="">
             Our mission is to revolutionize SMBs' digital presence with
             innovative Martech solutions and tailored marketing services.

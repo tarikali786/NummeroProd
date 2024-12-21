@@ -44,7 +44,7 @@ export const LogodesignData = [
     },
     process: {
       heading: "Our Logo Design Process",
-      benefitCard: [
+      processCard: [
         {
           id: "process1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67652b5dfb63bc3f43682c9a.png",
@@ -84,7 +84,7 @@ export const LogodesignData = [
     },
     benefits: {
       heading: "Benefits of Hiring Our Logo Design Company in Bangalore",
-      processCard: [
+      benefitCard: [
         {
           id: "Services1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67645354fc6ac69ed167c8c8.png",

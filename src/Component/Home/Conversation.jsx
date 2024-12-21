@@ -19,7 +19,7 @@ export const Conversation = () => {
         }}
         className="lg:w-1/2"
       >
-        <h3 className="text-2xl md:text-3xl font-bold mb-2">AI Conversation</h3>
+        <h2 className="text-2xl md:text-3xl font-bold mb-2">AI Conversation</h2>
         <p className="text-[16px] mb-6  text-white-300">
           Ginee’s Conversations feature streamlines client communication and
           collaboration. It automates interactions, manages leads, and enhances

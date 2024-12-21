@@ -57,7 +57,7 @@ export const digitalmarketingData = [
         },
       ],
     },
-    process: {
+    benefits: {
       heading:
         "Benefits of Hiring Our Digital Marketing Strategy Development Services Company in Bangalore",
       benefitCard: [

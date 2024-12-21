@@ -53,9 +53,9 @@ export const Communication = () => {
               className="w-full lg:w-[65%] communicationCard items-center px-6 py-10 flex  justify-between gap-6 rounded-xl"
             >
               <div className="w-[60%]">
-                <h3 className="text-2xl text-blue-300">
+                <h2 className="text-2xl text-blue-300">
                   Timely and Transparent Communication
-                </h3>
+                </h2>
                 <p className="text-sm text-white-300 mt-2 mb-8">
                   Experience Timely and Transparent Communication for Unmatched
                   Customer Satisfaction and Trust
@@ -81,7 +81,7 @@ export const Communication = () => {
               }}
               className="bg-[#2b2338] lg:h-auto  h-[30vh] w-full lg:w-[35%]  rounded-xl boottraffic flex  flex-col   justify-center px-4"
             >
-              <h3 className="text-xl w-[60%]">Boost Traffic & Sales</h3>
+              <h2 className="text-xl w-[60%]">Boost Traffic & Sales</h2>
               <p className="w-[62%] text-sm text-white-300 mt-2">
                 Boost Traffic and Sales with Proven, Effective, and Innovative
                 Marketing Strategies Today
@@ -102,7 +102,7 @@ export const Communication = () => {
               className="w-full lg:w-[65%] ResponsiveCard items-center px-6 py-10 flex  justify-between gap-6 rounded-xl"
             >
               <div className="w-[60%]">
-                <h3 className="text-2xl">Responsive and Scalable</h3>
+                <h2 className="text-2xl">Responsive and Scalable</h2>
                 <p className="text-sm text-white-500 mt-2 mb-8">
                   Responsive and Scalable Solutions for Dynamic, Growing
                   Businesses
@@ -127,7 +127,7 @@ export const Communication = () => {
               }}
               className="bg-[#2b2338] w-full lg:w-[35%]  rounded-xl VlaueContainer flex  flex-col  items-center justify-center px-4 lg:py-10 py-12"
             >
-              <h3 className="text-4xl font-bold ">4.6+</h3>
+              <h2 className="text-4xl font-bold ">4.6+</h2>
               <p className="text-lg text-white-300 mt-1">Client Ratings</p>
 
               <div className="flex gap-1 mt-4">

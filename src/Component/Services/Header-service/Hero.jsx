@@ -20,9 +20,9 @@ export const Hero = ({ data }) => {
           }}
           className="w-full md:w-1/2"
         >
-          <span className="uppercase text-[12px] font-semibold text-blue-500 ">
+          <p className="uppercase text-[12px] font-semibold text-blue-500 ">
             {data?.title}
-          </span>
+          </p>
           <h1 className="text-3xl lg:text-4xl font-bold mt-4">
             {data?.heading}
           </h1>

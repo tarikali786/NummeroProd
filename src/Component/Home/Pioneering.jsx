@@ -17,9 +17,9 @@ export const Pioneering = () => {
         }}
         className="absolute  w-[80%] lg:w-1/2 min-h-[40vh] PioneeringSection rounded-lg flex  flex-col justify-center items-center px-4 py-6"
       >
-        <h3 className="text-3xl lg:w-[65%] text-center font-bold mb-4">
+        <h2 className="text-3xl lg:w-[65%] text-center font-bold mb-4">
           Pioneering Digital Excellence Discover the Nummero Advantage.
-        </h3>
+        </h2>
         <p className="text-center text-lg  text-white-300 lg:w-1/2 mb-4">
           Delivering Great Digital Experiences: Engaging, Seamless, and
           User-Centric Solutions.
