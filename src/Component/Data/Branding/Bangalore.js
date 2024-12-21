@@ -6,6 +6,8 @@ export const BangaloreBrandingData = [
       heading: "All-in-one Branding Agency Services in Bangalore",
       subheading:
         "Top-notch Branding Agency in Bangalore to take your business to the next level",
+      image:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67656c43feefac1c7b579def.png",
     },
     services: {
       heading: "All-in-one Branding Agency Services in Bangalore",

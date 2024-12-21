@@ -1,11 +1,13 @@
-export const Soialdat = [
+export const BangloreSocialData = [
   {
-    id: banglore,
+    id: "banglore",
     Hero: {
       title: "Social Media Marketing",
       heading: "Best Social Media Marketing Agency in Bangalore",
       subheading:
         "Top-notch SMM Agency in Bangalore to take your business to the next level.",
+      images:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67656fcb46935181ce511223.png",
     },
     Services: {
       heading: "All-in-one SEO Services",

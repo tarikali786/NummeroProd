@@ -14,7 +14,8 @@ export const Service = () => {
         {serviceData?.serviceCard.map((item, index) => (
           <Card
             key={index}
-            iconUrl={"https://www.nummero.com/wp-content/uploads/2024/07/Icon1.png"}
+            imagesurl={item?.images}
+            iconUrl={item?.icon}
             title={item?.title}
             description={item?.content}
           />

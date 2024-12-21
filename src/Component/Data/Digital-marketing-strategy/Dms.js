@@ -7,6 +7,8 @@ export const digitalmarketing = [
         "Best Digital Marketing Strategy Development Company in Bangalore",
       subheading:
         "Top-notch SEO Company in Bangalore to take your business to the next level",
+      images:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765719efeefac907e57a52b.png",
     },
     Services: {
       heading: "Our Digital Marketing Strategy Development Process",

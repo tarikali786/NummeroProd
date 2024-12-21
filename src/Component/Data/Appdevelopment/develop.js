@@ -1,6 +1,4 @@
-
-
-export const Devlopmentdata = [
+export const developerData = [
   {
     id: "banglore",
     hero: {
@@ -8,10 +6,9 @@ export const Devlopmentdata = [
       heading: "Best Web Development Company in Bangalore",
       subheading:
         "Top-notch Web Development Company in Bangalore to take your business to the next level",
-      images:
-        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67656c80fb63bcdcf568b20c.png",
+        image:""
     },
-    services: {
+    Services: {
       heading: "All-in-one Website Development Services",
       servicesCard: [
         {
@@ -44,7 +41,7 @@ export const Devlopmentdata = [
         },
       ],
     },
-    process: {
+    Process: {
       heading: "Our Bangalore Branding Agency Process",
       processCard: [
         {

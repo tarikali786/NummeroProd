@@ -22,7 +22,7 @@ export const Hero = () => {
         </div>
         <div className="w-[68%] md:w-1/2">
           <img
-            src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67640620fb63bc3bf1669e59.png"
+            src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765714937faab324af0528e.png"
             alt="Branding"
           />
         </div>

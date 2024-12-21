@@ -6,6 +6,8 @@ export const design = [
       heading: "Best Logo Design Company in Bangalore",
       subheading:
         "Top-notch SEO Company in Bangalore to take your business to the next level",
+      image:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765714937faab324af0528e.png",
     },
     Services: {
       heading: "All-in-one Logo Design Services in Bangalore",

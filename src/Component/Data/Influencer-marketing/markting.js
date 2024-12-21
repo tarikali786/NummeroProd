@@ -6,6 +6,8 @@ export const influencers = [
       heading: "Best Influencer Marketing Agency in Bangalore",
       subheading:
         "Top-notch Influencer Marketing Agency in Bangalore to take your business to the next level",
+      images:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676570a937faab5f88f051b5.png",
     },
     Services: {
       heading: "All-in-one Influencer Marketing Services",
@@ -138,41 +140,44 @@ export const influencers = [
     Faq: [
       {
         id: "faq1",
-        question: "How long does it take to see results with Nummero’s digital marketing services?",
+        question:
+          "How long does it take to see results with Nummero’s digital marketing services?",
         answer:
-        "The timeline for seeing results varies depending on factors such as the competitiveness of your industry, the scope of the campaign, and your current online presence. However, our team works diligently to implement strategies that yield tangible results as efficiently as possible.",
+          "The timeline for seeing results varies depending on factors such as the competitiveness of your industry, the scope of the campaign, and your current online presence. However, our team works diligently to implement strategies that yield tangible results as efficiently as possible.",
       },
       {
         id: "faq2",
-          question:
-        "How does Nummero ensure the success of its clients’ campaigns?",
-          answer:
-        "Nummero employs a data-driven approach combined with industry expertise to tailor strategies that align with clients’ goals. We constantly monitor campaign performance and optimize strategies to deliver maximum results.",
+        question:
+          "How does Nummero ensure the success of its clients’ campaigns?",
+        answer:
+          "Nummero employs a data-driven approach combined with industry expertise to tailor strategies that align with clients’ goals. We constantly monitor campaign performance and optimize strategies to deliver maximum results.",
       },
       {
         id: "faq3",
         question:
-        "How does your influencer marketing company in Bangalore choose influencers that are right for my brand?", 
-          answer:
-       "To find influencers who share the values, target market, and campaign goals of your brand, our agency uses a stringent vetting procedure. To guarantee the best fit, we take into account variables like audience demographics, engagement rates, content quality, and relevance.",
+          "How does your influencer marketing company in Bangalore choose influencers that are right for my brand?",
+        answer:
+          "To find influencers who share the values, target market, and campaign goals of your brand, our agency uses a stringent vetting procedure. To guarantee the best fit, we take into account variables like audience demographics, engagement rates, content quality, and relevance.",
       },
       {
         id: "faq4",
-        question: "With which social media channels do you collaborate on influencer marketing initiatives?",
-          answer:
-        "We use a range of social media sites, such as Facebook, Twitter, Instagram, YouTube, TikTok, and others. Our strategy is designed to reach your target audience on the most engaged and active platforms.",
+        question:
+          "With which social media channels do you collaborate on influencer marketing initiatives?",
+        answer:
+          "We use a range of social media sites, such as Facebook, Twitter, Instagram, YouTube, TikTok, and others. Our strategy is designed to reach your target audience on the most engaged and active platforms.",
       },
       {
         id: "faq5",
-        question: "How do I get started using Nummero’s influencer marketing services in bangalore?",
+        question:
+          "How do I get started using Nummero’s influencer marketing services in bangalore?",
         answer:
-        "It’s easy to get started using our influencer marketing services. To arrange a consultation, you can get in touch with us via our website or by getting in touch with us personally. We will talk about your preferences, budget, and goals during the consultation in order to create a plan that is specifically tailored to your requirements.",
+          "It’s easy to get started using our influencer marketing services. To arrange a consultation, you can get in touch with us via our website or by getting in touch with us personally. We will talk about your preferences, budget, and goals during the consultation in order to create a plan that is specifically tailored to your requirements.",
       },
       {
         id: "faq6",
         question: "How do you handle influencer partnerships and compensation?",
-          answer:
-        "Our agency manages all aspects of influencer partnerships, including negotiation, contract agreements, and compensation. We ensure fair and transparent partnerships that benefit both the influencers and your brand.",
+        answer:
+          "Our agency manages all aspects of influencer partnerships, including negotiation, contract agreements, and compensation. We ensure fair and transparent partnerships that benefit both the influencers and your brand.",
       },
     ],
 

@@ -4,6 +4,7 @@ import { Card } from "./Card";
 
 export const Service = () => {
   const serviceData = BangaloreBrandingData[0]?.services;
+  console.log(Service);
 
   return (
     <div className="md:px-10 lg:px-12 xl:px-44 px-6 py-10  flex flex-col  items-center">
@@ -14,7 +15,7 @@ export const Service = () => {
         {serviceData?.serviceCard.map((item, index) => (
           <Card
             key={index}
-            iconUrl={"https://www.nummero.com/wp-content/uploads/2024/07/Icon1.png"}
+            iconUrl={item?.icon}
             title={item?.title}
             description={item?.content}
           />

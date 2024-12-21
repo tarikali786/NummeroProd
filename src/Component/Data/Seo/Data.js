@@ -6,6 +6,8 @@ export const Seodata = [
       heading: "Best SEO Company in Bangalore",
       subheading:
         "Top-notch SEO Company in Bangalore to take your business to the next level",
+      image:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67656fcb46935181ce511223.png",
     },
 
     Services: {
@@ -337,8 +339,8 @@ export const Seodata = [
         id: "faq29",
         question:
           "How Does Nummero Handle SEO Audits for Businesses in Bangalore?",
-          answer:
-        "At Nummero, we provide comprehensive SEO audits to identify areas for improvement and develop a roadmap for SEO success. Our audits cover all aspects of your website, including on-page optimization, technical SEO, backlink profile, and content quality. By conducting a thorough analysis, we pinpoint the issues that are holding back your search rankings and provide actionable recommendations. Our team at Nummero then implements these improvements, ensuring that your website is optimized to meet the latest SEO standards. As one of the top SEO companies in Bangalore, we continuously monitor your website’s performance post-audit, making adjustments as needed to keep you on the path to success."
+        answer:
+          "At Nummero, we provide comprehensive SEO audits to identify areas for improvement and develop a roadmap for SEO success. Our audits cover all aspects of your website, including on-page optimization, technical SEO, backlink profile, and content quality. By conducting a thorough analysis, we pinpoint the issues that are holding back your search rankings and provide actionable recommendations. Our team at Nummero then implements these improvements, ensuring that your website is optimized to meet the latest SEO standards. As one of the top SEO companies in Bangalore, we continuously monitor your website’s performance post-audit, making adjustments as needed to keep you on the path to success.",
       },
     ],
 
