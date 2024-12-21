@@ -1,7 +1,7 @@
-export const design = [
+export const LogodesignData = [
   {
-    id: banglore,
-    Hero: {
+    id: "1",
+    hero: {
       title: "Invest in Professional Expertise Now!",
       heading: "Best Logo Design Company in Bangalore",
       subheading:
@@ -9,9 +9,9 @@ export const design = [
       image:
         "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765714937faab324af0528e.png",
     },
-    Services: {
+    services: {
       heading: "All-in-one Logo Design Services in Bangalore",
-      servicesCard: [
+      serviceCard: [
         {
           id: "pro1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676408479b7d9a817af348b4.png",
@@ -42,7 +42,7 @@ export const design = [
         },
       ],
     },
-    Process: {
+    process: {
       heading: "Our Logo Design Process",
       processCard: [
         {
@@ -82,7 +82,7 @@ export const design = [
         },
       ],
     },
-    Services: {
+    benefits: {
       heading: "Benefits of Hiring Our Logo Design Company in Bangalore",
       processCard: [
         {
@@ -129,7 +129,7 @@ export const design = [
         },
       ],
     },
-    Faq: [
+    faq: [
       {
         id: "faq1",
         question: "What services does Nummero offer?",

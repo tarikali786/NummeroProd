@@ -1,18 +1,18 @@
-export const digitalmarketing = [
+export const digitalmarketingData = [
   {
-    id: banglore,
-    Hero: {
+    id: "1",
+    hero: {
       title: "Invest in Professional Expertise Now!",
       heading:
         "Best Digital Marketing Strategy Development Company in Bangalore",
       subheading:
         "Top-notch SEO Company in Bangalore to take your business to the next level",
-      images:
+      image:
         "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765719efeefac907e57a52b.png",
     },
-    Services: {
+    services: {
       heading: "Our Digital Marketing Strategy Development Process",
-      servicesCard: [
+      serviceCard: [
         {
           id: "sev1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67652b5dfb63bc3f43682c9a.png",
@@ -57,7 +57,7 @@ export const digitalmarketing = [
         },
       ],
     },
-    Process: {
+    process: {
       heading:
         "Benefits of Hiring Our Digital Marketing Strategy Development Services Company in Bangalore",
       processCard: [
@@ -105,7 +105,7 @@ export const digitalmarketing = [
         },
       ],
     },
-    Faq: [
+    faq: [
       {
         id: "faq1",
         question:

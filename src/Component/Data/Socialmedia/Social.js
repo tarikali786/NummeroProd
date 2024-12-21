@@ -1,17 +1,17 @@
 export const BangloreSocialData = [
   {
     id: "banglore",
-    Hero: {
+    hero: {
       title: "Social Media Marketing",
       heading: "Best Social Media Marketing Agency in Bangalore",
       subheading:
         "Top-notch SMM Agency in Bangalore to take your business to the next level.",
-      images:
-        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67656fcb46935181ce511223.png",
+      image:
+        "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765706f11ca4ea5e3f7dd69.png",
     },
-    Services: {
+    services: {
       heading: "All-in-one SEO Services",
-      servicesCard: [
+      serviceCard: [
         {
           id: "pro1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676449977e62113a21ac317c.png",
@@ -42,7 +42,7 @@ export const BangloreSocialData = [
         },
       ],
     },
-    Process: {
+    process: {
       heading: "Our Social Media Marketing Process",
       processCard: [
         {
@@ -89,7 +89,7 @@ export const BangloreSocialData = [
         },
       ],
     },
-    Services: {
+    benefits: {
       heading:
         "Benefits of Hiring Our Social Media Marketing Agency in Bangalore",
       processCard: [
@@ -137,7 +137,7 @@ export const BangloreSocialData = [
         },
       ],
     },
-    Faq: [
+    faq: [
       {
         id: "faq1",
         question:

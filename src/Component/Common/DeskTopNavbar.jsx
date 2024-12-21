@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { NavbarData } from "../Data/Data";
 export const DeskTopNavbar = () => {
-  const [hoverIndex, setHoverIndex] = React.useState(null);
+  const [hoverIndex, setHoverIndex] = useState(null);
+  const [activeTab, setActiveTab] = useState("/");
+
   React.useEffect(() => {
     const handleScroll = () => {
-      setHoverIndex(null); // Reset hover index on scroll
+      setHoverIndex(null);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -15,7 +16,7 @@ export const DeskTopNavbar = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50  w-full md:px-10 lg:px-12 xl:px-44 px-6 py-4 bg-bgblue-500 lg:flex  lg:justify-between lg:items-center hidden  gap-2  ">
+    <div className="sticky  top-0 z-50   md:px-10 lg:px-12 xl:px-44 px-6 py-4 bg-bgblue-500 lg:flex  lg:justify-between lg:items-center hidden  gap-2  ">
       <Link to="/" className="h-10 md:w-52 w-44">
         <img
           src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png"
@@ -56,7 +57,7 @@ export const DeskTopNavbar = () => {
       </div>
       <Link
         to="tel:+917760974512"
-        className="text-white-500 bg-blue-500 rounded-3xl px-6 py-3 font-semibold  "
+        className="text-white-500 bg-blue-500 rounded-3xl px-6 py-[10px] font-semibold hover:bg-yellow-500  "
       >
         <p>+917760974512</p>
       </Link>
