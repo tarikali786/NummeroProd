@@ -13,9 +13,9 @@ export const Omnichanal = () => {
       }}
       className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6 text-center"
     >
-      <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl mb-3">
+      <h2 className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl mb-3">
         MarTech Omni-Channel Strategy
-      </h1>
+      </h2>
       <p className="text-lg mb-6 text-white-300">
         Empower Your Teams with Infinite Scalability: Comprehensive AI-Powered
         Marketing Suite

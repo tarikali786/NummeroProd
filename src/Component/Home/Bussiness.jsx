@@ -4,10 +4,10 @@ export const Bussiness = () => {
   return (
     <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6">
       <div className="bussinessCard flex flex-col items-center justify-center text-center text-white py-10 px-6 border border-white-400">
-        <h1 className="text-white font-semibold text-xl md:text-3xl lg:text-4xl md:w-1/2">
+        <h2 className="text-white font-semibold text-xl md:text-3xl lg:text-4xl md:w-1/2">
           Join over 200+ businesses to create unique digital experiences for
           your customers.
-        </h1>
+        </h2>
         <div className="mt-16 flex md:justify-between  justify-center  flex-wrap gap-12 md:items-left items-center ">
           {/* Add logo images */}
           <div className="h-20vh w-[160px] md:w-[200px]">

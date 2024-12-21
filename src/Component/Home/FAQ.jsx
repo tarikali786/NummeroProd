@@ -6,6 +6,7 @@ import "./index.css";
 import { useState } from "react";
 import { FAQDATA } from "../Data/Data";
 import { Border } from "../Common/Border";
+import { div } from "framer-motion/client";
 
 export const FAQ = () => {
   const [showMore, setShowMore] = useState(false);
@@ -15,30 +16,29 @@ export const FAQ = () => {
       <h2 className="text-center  text-4xl font-bold mb-10 ">FAQ</h2>
 
       {(showMore ? FAQDATA : [FAQDATA[0]]).map((item, index) => (
-        <Accordion
-          className="faqCard"
-          key={index}
-          defaultExpanded={index === 0}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls={`panel${item}-content`}
-            id={`panel${item}-header`}
-            style={{
-              color: "#29a9e0",
-              fontSize: "22px",
-              marginBottom: "0",
-            }}
-          >
-            {item?.question}
-          </AccordionSummary>
-          <AccordionDetails
-            className="text-white-300"
-            style={{ marginTop: "0" }}
-          >
-            {item?.answer}
-          </AccordionDetails>
-        </Accordion>
+        <div key={index}>
+          <Accordion className="faqCard" defaultExpanded={index === 0}>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls={`panel${item}-content`}
+              id={`panel${item}-header`}
+              style={{
+                color: "#29a9e0",
+                fontSize: "22px",
+                marginBottom: "0",
+              }}
+            >
+              {item?.question}
+            </AccordionSummary>
+            <AccordionDetails
+              className="text-white-300"
+              style={{ marginTop: "0" }}
+            >
+              {item?.answer}
+            </AccordionDetails>
+          </Accordion>
+          <Border />
+        </div>
       ))}
 
       <div

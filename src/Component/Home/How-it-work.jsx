@@ -5,9 +5,9 @@ import { Button } from "../Common/Button";
 export const HowItwork = () => {
   return (
     <div className="w-full md:px-10 lg:px-12 xl:px-44 px-6  pt-10 bussinessCard flex flex-col py-20">
-      <h3 className="text-md uppercase text-blue-500 text-center font-semibold">
+      <h2 className="text-md uppercase text-blue-500 text-center font-semibold">
         How it Works
-      </h3>
+      </h2>
       <h2 className="md:text-3xl text-2xl w-1/2 text-center font-bold mt-4">
         Unlock Astonishing Results with Just 3 Simple Steps!
       </h2>
@@ -30,7 +30,7 @@ export const HowItwork = () => {
               className="object-fill"
             />
           </div>
-          <h3 className="text-xl ">Free Consultations</h3>
+          <h2 className="text-xl ">Free Consultations</h2>
           <p className="text-white-300 text-[17px] mb-3">
             Book a free consultation call at click of a button
           </p>
@@ -55,7 +55,7 @@ export const HowItwork = () => {
               className="object-fill"
             />
           </div>
-          <h3 className="text-xl ">Discover the product</h3>
+          <h2 className="text-xl ">Discover the product</h2>
           <p className="text-white-300 text-[17px] mb-3">
             Book a demo to discover the product
           </p>
@@ -80,7 +80,7 @@ export const HowItwork = () => {
               className="object-fill"
             />
           </div>
-          <h3 className="text-xl ">Trail – 14 Days</h3>
+          <h2 className="text-xl ">Trail – 14 Days</h2>
           <p className="text-white-300 text-[17px] mb-3">
             Sign up for 14 days free trail to use the product
           </p>
@@ -105,7 +105,7 @@ export const HowItwork = () => {
               className="object-fill"
             />
           </div>
-          <h3 className="text-xl ">Product Implementation</h3>
+          <h2 className="text-xl ">Product Implementation</h2>
           <p className="text-white-300 text-[17px] mb-3">
             Reach out to our 24/7 customer support for product implementation
           </p>
