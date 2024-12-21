@@ -7,7 +7,7 @@ export const Process = ({ data }) => {
         {data?.heading}
       </h2>
       <div className="flex flex-col gap-y-20 mt-16 w-full">
-        {data?.processCard.map((item, index) => (
+        {data?.processCard?.map((item, index) => (
           <div
             key={index}
             className={`flex ${

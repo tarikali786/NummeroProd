@@ -44,7 +44,7 @@ export const LogodesignData = [
     },
     process: {
       heading: "Our Logo Design Process",
-      processCard: [
+      benefitCard: [
         {
           id: "process1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67652b5dfb63bc3f43682c9a.png",

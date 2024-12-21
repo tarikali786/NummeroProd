@@ -10,131 +10,144 @@ export const ContentWrintingData = [
         "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67667485fb63bc99a46a37c5.png",
     },
     services: {
-      heading: "All-in-one Website Development Services",
+      heading: "All-in-one Content Writing Development Services",
       serviceCard: [
         {
           id: "sev1",
-          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676449977e62113a21ac317c.png",
-          title: "Responsive Web Development",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676452f19d7e0376f264dd95.png",
+          title: "Blog writing & Articles writing",
           content:
-            "We build high quality responsive WordPress websites uniquely tailored to your business needs and preferences. Our responsive websites not only improve user experience but also increase lead conversions rates. Our development team at Nummero – The Best Web Development Company In Bangalore , also focuses on the search engine visibility of your website to Improve your brand image.",
+            "Articles and blogs are our focus area here. We are skilled in storytelling and are a front-runner content provider in Bangalore. Our Bangalore content writers leverage their market knowledge and expertise in SEO to make sure your content resonates with the audience you intend to convey.",
         },
         {
           id: "sev2",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6764081afb63bc02f1669f38.png",
-          title: "Content Management Systems (CMS)",
+          title: "SEO-driven content",
           content:
-            "Being one of the best web development company in Bangalore, Nummero holds a high expertise in experimenting and handling user-friendly cms solutions. CMS platforms offer many features, functionalities and built-in tools without requiring much technical expertise. We can design websites, optimize comprehensive keywords, manage content, and do seo related tasks effectively.",
+            "Understanding the heart of SEO in boosting online visibility, we have become experts in creating SEO-focused content. Our Bangalore content writers know how to use vital words to help your brand appear better in searches, all while keeping the writing interesting and easy to read. We don’t just add keywords; we create value-packed content.",
         },
         {
           id: "sev3",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67644a5ce7af22ce29cd0968.png",
-          title: "SEO Integration",
+          title: "Social media content",
           content:
-            "Search engine optimization is the integral part of digital marketing. We focus on keyword optimization to make your website rank on top on search engines for the visitors who search with the specific keywords. Our seo team at Nummero –  executes highly impactful strategies to help your business to reach its target audience.",
+            "We’re a top Bangalore content agency. We make social media posts that show off your business and hit what your audience wants. Our clever ideas make your message pop. We connect people as social media changes. We’re great at getting noticed online. Our posts start conversations and bring people together around your brand. By keeping up with trends, we make sure your content stays interesting and engaging.",
         },
         {
           id: "sev4",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67644ac79b7d9a7fbdf3963f.png",
-          title: "Performance Optimization",
+          title: "Website content creation",
           content:
-            "The ultimate goal of any digital marketing campaign optimization is converting the target audience into loyal customers. As the best web development company in Bangalore, Nummero works on strategies to increase the website traffic, keyword optimization to enhance visibility rate on search engines regularly.",
+            "As a top content writer in Bangalore, we specialize in developing social media material that accurately portrays your company and intensely interacts with your target audience. We create postings that encourage engagement and foster good relationships.",
         },
       ],
     },
     process: {
-      heading: "Our Bangalore Branding Agency Process",
+      heading: "Our Content Writing Process",
       processCard: [
         {
           id: "process1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676451629b7d9ac0e4f39fd9.png",
-          title: "Discovery",
+          title: "Consultation",
           content:
-            "We deep dive into your business goals, analyze your brand competitors, and understand the target market as well as audience. Being the Best web development company in Bangalore we do careful research on market trends and help your business with informed decisions.",
+            "Start with content writing services: Nummero Bangalore’s Best Content Writing Service helps you to know your goals, audience, and brand. Our content ranks well in Google and communicates with the users.",
         },
         {
           id: "process2",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6764519564c3e5624260c323.png",
-          title: "Design",
+          title: "Research",
           content:
-            "We prioritize simple layouts and designs for websites which usually attract and keep your audiences engaged, rather than clumsy and complicative ones. A good design, in general, plays a critical role in driving conversions as well as promoting your brand visibility.",
+            "THE INSIGHT CENTER – Our content writers in Bangalore, dive deep into your industry landscape to uncover compelling insights and competitor strategies. This way, your content shall be informative and purposeful to you. This way, your content shall be informative and purposeful to you.",
         },
         {
           id: "process3",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676451b9e81acb3e97a53e82.png",
-          title: "Development",
+          title: "Content Creation",
           content:
-            "Our talented development team uses state-of-the-art technology to make your design a reality. As an e-commerce web development company in Bangalore , we make sure that reliable and useful features are implemented, resulting in a smooth and effective website.",
+            "Our skilled team makes quality content in line with your brand design. We make blog posts that are fun or articles that give information to the readers and give them a sense of connection with the brand message.",
         },
         {
           id: "process4",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676452749d7e03ace764dd57.png",
-          title: "Testing",
+          title: "Revisions & Editing",
           content:
-            "An important step in our process is rigorous testing. We carry out thorough quality control inspections in order to find and fix any possible problems. This keeps our reputation as a trustworthy web development company in bangalore intact by guaranteeing that your website works flawlessly.",
+            "Regardless of the process, our experts in Bangalore will make you endure it twice with their gifted content writers. We guarantee that your message will be understandable and enticing, and it can keep the attention of everyone in hearing range",
         },
         {
           id: "process5",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643d589ea10046469539a9.png",
-          title: "Deployment",
+          title: "Continuous Support & Partnership",
           content:
-            "Our deployment process ensures a smooth transition from development to the live environment. As the best web development company in Bangalore, we prioritize a seamless and efficient deployment of your website.",
+            "Our commitment to your success does not end after the first delivery. At The Bangalore Content Writer, we offer ongoing support, collaborating with you on updates, adjustments, and new content suggestions.",
         },
         {
           id: "process6",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676452f19d7e0376f264dd95.png",
-          title: "Maintenance",
+          title: "Final Delivery",
           content:
-            "We provide ongoing maintenance and support services to keep your website updated, secure, and optimized for peak performance. Our commitment to excellence as an ecommerce web development company in Bangalore extends beyond the initial launch to ensure long-term success.",
+            "We’re Bangalore’s best content creators. Our team crafts captivating, one-of-a-kind pieces using tried-and-true techniques and meticulous planning. We promise to deliver genuine, top-notch writing services that accommodate your correct requirements. Our approach has a revolutionary impact on content creation, and we take pride in our capacity to impact readers with our words.",
         },
       ],
     },
     benefits: {
       heading:
-        "Benefits of Hiring Our Website Development Services Company in Bangalore",
-      processCard: [
+        "Benefits of Hiring Our Content Writing Services Company in Bangalore.",
+      benefitCard: [
         {
           id: "Services1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67645354fc6ac69ed167c8c8.png",
-          title: "Customization",
+          title: "Brand Awareness & Engagement",
           content:
-            "We prioritize clients needs and preferences, we do understand their competitive market and customize their website according to their brand goals. We introduce CTA buttons, drag & drop, pop ups, and forms for easy navigation and accessibility of your site to increase click-through rates.",
+            "Our content will position your brand as a thought leader in your industry, keeping your audience coming back for more. With strategic content created by our skilled content writers in Bangalore, we ensure that your brand remains top-of-mind among your intended audience.",
         },
         {
           id: "Services2",
-          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643f1b7e62116ab5ac2915.png",
-          title: "Scalability",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67652e204693510bff50b64e.png",
+          title: "Traffic & Leads",
           content:
-            "Our team at Nummero ensures you with an ideal deal of features and functionalities for your website. We scale your websites to a large extent to promote your brand among your target audience. As a leading web development company in Bangalore we look forward to providing you with measurable results.",
+            "With our track record of success in content creation, we assist you in increasing website traffic and producing quality leads that support business expansion. Being one of the top content writing services companies in Bangalore, we recognize the value of creating engaging content that encourages readers to act.",
         },
         {
           id: "Services3",
-          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676453ad9ea10048a8954dba.png",
-          title: "Expertise",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676453ad9ea10048a8954dba.png.",
+          title: "SEO Optimization",
           content:
-            "As a leading web development company in Bangalore, we have a team of skilled developers, who are highly expertise in wordpress web development and latest technologies. We always stand ahead of market trends and help your business grow apart from competition.",
+            "At Nummero we craft highly optimized SEO-powered content outcomes that support you to rank higher for all relevant searches. Our skilled content writers in Bangalore will engage your audience and efficiently increase your internet visibility to drive traffic.",
         },
         {
           id: "Services4",
-          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/676453e19ea1002019954dd4.png",
-          title: "Collaboration",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643fe646935138164f6a98.png",
+          title: "Scalable Solutions",
           content:
-            "Nummero follows a collaborative approach throughout the development process. As a leading web development company in Bangalore, We listen to your ideas and customize the designs and development process according to your business requirements.",
+            "We can help with any size project, from a single blog post to an extensive content marketing plan. No matter how big or small your content needs are, our scalable solutions are made to meet them, guaranteeing flexibility and effectiveness in content creation.",
+        },
+        {
+          id: "Services5",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6764519564c3e5624260c323.png",
+          title: "Data-Driven Approach",
+          content:
+            "Utilizing both MagicLinks data-driven insights, partnered with our years in creative and video production expertise, how to craft content not only attention-grabbing but also action-driving. We can proudly say that one of the premier content writing companies in Bangalore uses top-notch techniques to serve you with these sorts of scripts that are no less than any other digital marketing tool that leads your target audiences toward conversion.",
+        },
+        {
+          id: "Services5",
+          icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6765308d469351ac6450b847.png",
+          title: "Experienced & Versatile Writers",
+          content:
+            "Our team of skilled writers in Bangalore can handle many types of writing. With lots of experience and knowledge of content marketing, we can confidently take on any project. Trust Nummero to deliver excellent content.",
         },
       ],
     },
     faq: [
       {
         id: "faq1",
-        question:
-          "Nummero Leading Website Design Company in Bangalore with Top-NotchSolutions",
+        question: "What types of content services does Nummero offer?",
         answer:
-          "If you’re searching for a website design company in Bangalore thatdelivers exceptional results, look no further than Nummero. As aleading website development company in Bangalore, Nummero offersinnovative design solutions that cater to your business needs.Whether you need a simple website or a complex digital platform,this website design company in Bangalore ensures the final product aligns with your goals. With their expert team of designers anddevelopers, Nummero is setting new standards for website developmentservices in Bangalore, helping businesses thrive online.",
+          "Nummero offers diverse content services, including website content creation, blog writing, social media content, email newsletters, and SEO content. Our team of content writers in Bangalore excels at crafting engaging and impactful content across various platforms.",
       },
       {
         id: "faq2",
         question:
-          "Why Nummero is the Top Website Development Company in Bangalore for 2024?",
+          "How does Nummero ensure that the content aligns with our brand’s voice?",
         answer:
           "When it comes to website development in Bangalore, Nummero is the top choice for 2024. Known for their expertise and reliability,Nummero has established itself as the premier website development company in Bangalore. With years of experience, the team at Nummero delivers outstanding results tailored to specific business needs. Their website development services in Bangalore are trusted by clients across various industries, and they are considered one of the best Bangalore website development companies for businesses aiming to grow their online presence.",
       },

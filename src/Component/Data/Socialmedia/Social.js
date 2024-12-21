@@ -92,7 +92,7 @@ export const BangloreSocialData = [
     benefits: {
       heading:
         "Benefits of Hiring Our Social Media Marketing Agency in Bangalore",
-      processCard: [
+      benefitCard: [
         {
           id: "Services1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643ec663c0fe637cd900cb.png",

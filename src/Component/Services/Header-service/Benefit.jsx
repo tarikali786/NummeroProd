@@ -1,6 +1,8 @@
 import { Card } from "./Card";
 
 export const Benefits = ({ data }) => {
+  console.log(data)
+
   return (
     <div className="md:px-10 lg:px-12 xl:px-44 px-6 py-10  flex flex-col  items-center">
       <h2 className="text-center text-[40px]  lg:[75%] font-bold text-blue-500">

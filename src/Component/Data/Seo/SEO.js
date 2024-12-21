@@ -92,7 +92,7 @@ export const Seodata = [
     },
     benefits: {
       heading: "Benefits of Hiring Our SEO Company in Bangalore",
-      processCard: [
+      benefitCard: [
         {
           id: "Services1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67645354fc6ac69ed167c8c8.png",

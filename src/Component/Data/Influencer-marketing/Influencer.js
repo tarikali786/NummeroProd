@@ -92,7 +92,7 @@ export const InfluencersMarketingData = [
     benefits: {
       heading:
         "Benefits of Hiring Our Influencer Marketing Services Company in Bangalore",
-      processCard: [
+      benefitCard: [
         {
           id: "Services1",
           icon: "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67655f22fb63bc85d868a8a1.png",
