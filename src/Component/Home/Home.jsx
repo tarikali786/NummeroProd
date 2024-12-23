@@ -14,8 +14,8 @@ import { Pioneering } from "./Pioneering";
 import { Testimonials } from "./Testimonials";
 import { FAQ } from "./FAQ";
 import { useEffect } from "react";
-import { GineeOffer } from "./Ginee-offer";
-import { NummeroOffer } from "./Nummero-offer";
+import { GineeOffer } from "./Ginee-Offer";
+import { NummeroOffer } from "./Nummero-Offer";
 import { HowItwork } from "./How-it-work";
 
 const Home = () => {
