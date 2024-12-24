@@ -1,3 +1,5 @@
+import { title } from "framer-motion/client";
+
 export const NavbarData = [
   {
     id: 1,
@@ -353,5 +355,39 @@ export const FAQDATA = [
     question: "How Does Nummero Handle SEO Audits for Businesses in Bangalore?",
     answer:
       "At Nummero, we provide comprehensive SEO audits to identify areas for improvement and develop a roadmap for SEO success. Our audits cover all aspects of your website, including on-page optimization, technical SEO, backlink profile, and content quality. By conducting a thorough analysis, we pinpoint the issues that are holding back your search rankings and provide actionable recommendations. Our team at Nummero then implements these improvements, ensuring that your website is optimized to meet the latest SEO standards. As one of the top SEO companies in Bangalore, we continuously monitor your website’s performance post-audit, making adjustments as needed to keep you on the path to success.",
+  },
+];
+
+// About
+
+export const AboutServiceData = [
+  {
+    title: "ONE TEAM TWO LOCATION",
+    discription:
+      "Our team is an extension of yours, with comparable aims and objectives to reach as a company.",
+    iconUrl:
+      "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643ec663c0fe637cd900cb.png",
+  },
+
+  {
+    title: "CONSISTENT COST STRUCTURE",
+    discription:
+      "Our pricing would be stable month to month, with no surprises, allowing your company to plan its annual marketing budget.",
+    iconUrl:
+      "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643ec663c0fe637cd900cb.png",
+  },
+  {
+    title: "HUGE COST SAVING",
+    discription:
+      "As your marketing partners, we will handle the marketing so you can focus on your core business it will help you reduce cost & time.",
+    iconUrl:
+      "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643ec663c0fe637cd900cb.png",
+  },
+  {
+    title: "COMPLETE SUITE FOR DIGITAL MARKETING",
+    discription:
+      "We are a full-service digital marketing agency that handles every part of digital marketing and covers all eight digital marketing verticals, from data to intelligence.",
+    iconUrl:
+      "https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67643ec663c0fe637cd900cb.png",
   },
 ];

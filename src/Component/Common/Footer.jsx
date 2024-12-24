@@ -9,16 +9,16 @@ import { Link } from "react-router-dom";
 import { Border } from "./Border";
 export const Footer = () => {
   return (
-    <div className="w-full md:px-10 lg:px-12 xl:px-44 px-4 py-6 bg-bgblue-100  ">
-      <div className="border-2 rounded-[50px] bg-blue-500 min-h-20 flex lg:flex-row flex-col gap-4 gap-y-6 text-white-500 justify-between  overflow-hidden px-12 lg:px-20 py-10">
+    <div className="w-full md:px-10 border  lg:px-12 xl:px-44 px-4 py-6 bg-bgblue-100  ">
+      <div className="   flex lg:flex-row flex-col gap-4 gap-y-6 text-white-500 justify-between  overflow-hidden  py-10">
         <div className="w-full lg:w-[40%]">
           <div className="w-[180px] md:w-[260px] h-[60px]">
             <img
-              src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/6763e1819b7d9af425f321a3.png"
+              src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png"
               alt=""
             />
           </div>
-          <p className="text-bgblue-300 text-sm mt-2 w-[75%]">
+          <p className=" text-sm mt-2 w-[90%]">
             Transforming Ideas into Digital Excellence. Elevate your online
             presence with our innovative solutions and strategic digital
             services.
@@ -74,29 +74,29 @@ export const Footer = () => {
           <div className=" ">
             <h3 className="text-[20px] font-semibold ">Services</h3>
 
-            <div className=" flex flex-col gap-2 mt-2 text-bgblue-300 ">
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+            <div className=" flex flex-col gap-2 mt-2 text-white-300  ">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Branding
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Website Development
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 SEO
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Social Media Management
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Influencer Marketing
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Digital Marketing Strategy
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Logo Design
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Content Writing
               </Link>
             </div>
@@ -104,11 +104,11 @@ export const Footer = () => {
           <div className=" ">
             <h3 className="text-[20px] font-semibold ">Support</h3>
 
-            <div className=" flex flex-col gap-2 mt-2 text-bgblue-300 ">
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+            <div className=" flex flex-col gap-2 mt-2 text-white-300   ">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Customer Support
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Cancellation & Refund Policy
               </Link>
             </div>
@@ -116,14 +116,14 @@ export const Footer = () => {
           <div className=" ">
             <h3 className="text-[20px] font-semibold ">Company</h3>
 
-            <div className=" flex flex-col gap-2 mt-2 text-bgblue-300 ">
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+            <div className=" flex flex-col gap-2 mt-2 text-white-300   ">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 About us
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Product Suite
               </Link>
-              <Link to="#" className="hover:text-yellow-500 text-sm">
+              <Link to="#" className="hover:text-blue-500 text-sm">
                 Blog
               </Link>
             </div>

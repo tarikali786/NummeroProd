@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import {
+  About,
   BangaloreBrandingData,
   BangloreSocialData,
   ContentWrintingData,
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeLayout />}>
           <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
         </Route>
 
         <Route path="/service" element={<HomeLayout />}>

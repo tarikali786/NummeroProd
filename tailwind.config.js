@@ -7,7 +7,6 @@ export default {
         lg: "0 0 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
         spBlue: "2px 2px 6px #29a9e0",
         spYellow: "2px 2px 6px #fcb347",
-
       },
     },
     screens: {
@@ -19,11 +18,12 @@ export default {
     colors: {
       blue: {
         // Brand color
-        500: "#29a9e0",
         600: "#121127",
-        300: "#b47cfd",
-        100: "#F4F6FA",
         700: "#0000f5",
+        500: "#29a9e0",
+        300: "#b47cfd",
+        400: "#80c1dc",
+        100: "#F4F6FA",
       },
       bgblue: {
         500: "#070110",
@@ -46,6 +46,7 @@ export default {
       },
       yellow: {
         500: "#fcb347",
+        400: "#e4bc7e",
       },
       pink: {
         500: "#ff7fc2",
